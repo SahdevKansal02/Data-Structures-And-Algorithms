@@ -1,5 +1,5 @@
 //Program To Perform Insertion,Deletion,Reversal and Traversal of a Linear Linked List In C/C++
-//Made By- Sahdev kansal
+//Made By- Sahdev Kansal
 #include<iostream>
 #include<stdio.h>
 #include<cstdlib>// Use <conio.h> instead, if you are using Turbo C
