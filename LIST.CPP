@@ -1,3 +1,4 @@
+//By- Sahdv kansal
 #include<iostream.h>
 #include<stdio.h>
 #include<conio.h>
@@ -5,7 +6,7 @@
 struct node
 { int info;
   struct node *next;
-};
+}; 
 typedef struct node* Node;
 Node start=NULL;
 int main()
