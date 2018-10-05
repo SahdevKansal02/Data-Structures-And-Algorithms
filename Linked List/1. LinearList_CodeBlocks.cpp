@@ -142,9 +142,14 @@ Node insertend(Node head)
     ptr->info=item;
     ptr->next=NULL;
     temp=head;
-    while(temp->next!=NULL)
-      temp=temp->next;
-    temp->next=ptr;
+    if(temp==NULL)
+        head=ptr;
+    else
+    {
+      while(temp->next!=NULL)
+           temp=temp->next;
+      temp->next=ptr;
+    }
     return head;
 }
 Node insertbefloc(Node head)
