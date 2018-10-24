@@ -3,7 +3,7 @@
 #include<conio.h>
 #include<graphics.h>
 int main()
-{ int xcenter,ycenter,radius;
+{ int xc,yc,r;//xc is xcenter,yc is ycenter and r is radius.
   int p;// p is decision parameter.
   int gd=DETECT,gm;
   int X,Y;
