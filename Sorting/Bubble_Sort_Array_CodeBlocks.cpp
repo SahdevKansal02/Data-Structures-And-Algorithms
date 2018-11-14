@@ -3,8 +3,8 @@
 #include<conio.h>
 #include<cstdlib>
 #include<time.h>
-int n=6;
-void bubble(int *,int n);
+#define n 6 //Size of array
+void bubble(int *,int);
 int main()
 {
     system("cls");
@@ -22,12 +22,12 @@ int main()
     printf(" %d ",arr[i]);
 
 }
-void bubble(int *ar,int n)
+void bubble(int *ar,int m)
 {
     int i,j,temp;
-    for(i=0;i<n;i++)
+    for(i=0;i<m-1;i++)
    {
-       for(j=0;j<n-i-1;j++)
+       for(j=0;j<m-i-1;j++)
        {
            if(ar[j]>ar[j+1])
            {
